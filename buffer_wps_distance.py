@@ -21,7 +21,7 @@ def inputs():
 
 
 def outputs():
-    return [['result', 'Polygon', 'A polygonal geometry representing the buffer region', 'application/json']]
+    return [['result', 'Polygon', 'A polygonal geometry representing the buffer region as a json file', 'application/json']]
 
 
 def execute(parameters):
