@@ -10,7 +10,7 @@ def title():
 
 
 def abstract():
-    return "A function that Computes a buffer area around this geometry having the given width"
+    return "A function that Computes a buffer area around the given geometry having the given width"
 
 
 def inputs():
