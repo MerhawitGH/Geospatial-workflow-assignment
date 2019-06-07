@@ -15,13 +15,13 @@ def abstract():
 
 def inputs():
     return [
-        ['geom', 'Input feature', 'description', 'application/json', True],
-        ['distance', 'distance', 'description', 'integer', True]
+        ['geom', 'Input feature', 'The Neighnourhood ', 'application/json', True],
+        ['distance', 'distance', 'The buffer distance in meter', 'integer', True]
     ]
 
 
 def outputs():
-    return [['result', '', 'description', 'application/json']]
+    return [['result', 'Polygon', '1000 meter buffer', 'application/json']]
 
 
 def execute(parameters):
