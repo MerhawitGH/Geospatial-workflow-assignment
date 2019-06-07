@@ -10,18 +10,18 @@ def title():
 
 
 def abstract():
-    return "A function that calculate buffer distance using vector data."
+    return "A function that Computes a buffer area around this geometry having the given width"
 
 
 def inputs():
     return [
-        ['geom', 'Input feature', 'The Neighnourhood ', 'application/json', True],
-        ['distance', 'distance', 'The buffer distance in meter', 'integer', True]
+        ['geom', 'Input feature', 'The given area', 'application/json', True],
+        ['distance', 'distance', 'The width of the buffer', 'integer', True]
     ]
 
 
 def outputs():
-    return [['result', 'Polygon', '1000 meter buffer', 'application/json']]
+    return [['result', 'Polygon', 'A polygonal geometry representing the buffer region', 'application/json']]
 
 
 def execute(parameters):
